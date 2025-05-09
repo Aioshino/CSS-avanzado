@@ -107,11 +107,6 @@ footer {
     transform: scale(1.05);
     box-shadow: 0 4px 10px rgb(163, 238, 248);
     }
-.hover-correo:hover {
-    background-color: #00f7ff;
-    transform: scale(1.05);
-    box-shadow: 0 4px 10px rgb(163, 238, 248);
-    }
 .hover-sexo:hover {
     background-color: #00f7ff;
     transform: scale(1.05);
@@ -119,6 +114,11 @@ footer {
     }
 .hover-comentario:hover {
     background-color: #00f7ff;
+    }
+.hover-correo:hover {
+    border-color: #00f7ff;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgb(163, 238, 248);
     }
 * {
     margin: 0;
