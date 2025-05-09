@@ -68,6 +68,12 @@ footer {
     text-align: center;
     padding: 15px;
     font-size: 14px;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    margin-left: 240px;
+    padding: 20px;
+    width: 100%;
     }
 .navlateral {
     position: fixed;
@@ -106,19 +112,41 @@ footer {
     transform: scale(1.05);
     box-shadow: 0 4px 10px rgb(163, 238, 248);
     }
+.hover-sexo:hover {
+    background-color: #00f7ff;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgb(163, 238, 248);
+    }
+.hover-comentario:hover {
+    background-color: #00f7ff;
+    }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     }
-table {
+.mi-tabla {
+    border-collapse: collapse; 
     width: 100%;
-    border-collapse: separate;
-    font-size: 14px;
-    color: black;
-    background-color: white;
-    padding: 10px 15px;
-}
+    border: 1px solid black;
+    color: white;
+    }
+.mi-tabla th,.mi-tabla td {
+    padding: 5px;
+    border: 1px solid white;
+    }
 .color-formulario h1,label{
     color: white;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+#h1tabla{
+    color: white;
+    text-align: center;
 }
